@@ -51,3 +51,25 @@ Dos and Don'ts
     E.g. str1 = Ying Jie is smart (ERROR)    
     Typecasting: Str1 = str('Hello')
 """
+
+# Operators
+"""
+Things that act on variables are called operators
+1. Mathematical Operators   (returns either int or float)
+    * - Multiply
+    / - Divide
+    + - Add
+    - - Subtract
+    ** - Exponentiate (power)            E.g. 2 ** 3 = 2 power 3.
+    % - Remainder after division         E,g, 13 % 2 = 1
+    // - Integer Division                E.g 13 // 2 = 6
+
+2. Logical Operators (returns only boolean, True False data)
+    == - Is equals to       E.g. 1 == 1  returns True
+    > - Greater than        E.g. 1 > 2  return False
+    < - Lesser than         E.g. 1.0 < 1.1 return True
+    >= Greater than or equals to
+    <= Lesser than or equals to
+    != Not equals to        E.g. 3 != 2 return True.    E.g. 2.0 != 2 return True
+
+"""
