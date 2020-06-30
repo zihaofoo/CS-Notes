@@ -5,4 +5,4 @@ Created on Tue Jun 30 17:38:51 2020
 @author: queky
 """
 
-
+print("Ying Jie is lame")
