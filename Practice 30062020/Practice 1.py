@@ -71,5 +71,34 @@ Things that act on variables are called operators
     >= Greater than or equals to
     <= Lesser than or equals to
     != Not equals to        E.g. 3 != 2 return True.    E.g. 2.0 != 2 return True
+"""
 
+# Printing and Scanning
+"""
+1. Printing
+Accepts all datatypes. But must have commas between different data types
+    E.g. print("The durian is $5.")   Sentence is a string
+    E.g. print(Durianprice)        Sentence prints out value of Durianprice
+    E.g. Durianprice = 5.0;     print("The durian is $", Durianprice, ".")
+    
+2. Reading Values
+User tells me durian price
+Function is input. Always reads a string only. 
+Rectify by typecasting
+
+E.g. String input:   Durianprice_today = input("Tell me the price of the Durian \n")
+     Float input:    Durianprice_today = float(input("Tell me the price of the Durian \n"))
+     Integer input:  Durianprice_today = int(input("Tell me the price of the Durian \n"))
+"""
+
+# Conditional Statements
+"""
+Operates on boolean type
+
+if <boolean condition>:
+    <Statements for IF>
+elif <boolean condition>:      READ as elseif
+    <Statements for elseif>   
+else:                        Executes when all IF and ELIF statements fail
+    <Statement for ELSE>    
 """
