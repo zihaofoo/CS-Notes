@@ -93,6 +93,7 @@ E.g. String input:   Durianprice_today = input("Tell me the price of the Durian 
 
 # Conditional Statements
 """
+
 Operates on boolean type
 
 if <boolean condition>:
