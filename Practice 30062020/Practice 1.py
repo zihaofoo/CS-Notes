@@ -103,3 +103,35 @@ elif <boolean condition>:      READ as elseif
 else:                        Executes when all IF and ELIF statements fail
     <Statement for ELSE>    
 """
+
+# Loops
+"""
+
+Types of loops:
+    1. Sentinel Controlled loop (based on condition)
+    2. Counter Controlled loop (based on iteration)
+
+Sentinel controlled loop -- While Loop
+
+while <boolean expression>:
+    <Statements when True>    
+    break   --> Exits current loop completely (Protect against infinite loop)
+else:
+    <Statements when False>     --> Last thing the loop will run before moving on. (Clean up code)
+    
+Counter controlled loop -- For Loop
+
+for i in range(start, stop ,step):
+    <Statement for True>
+E.g. 
+    for i1 in range(1, 10, 1):
+        sum = sum + i1  
+    Starts at i1 = 1, 
+    Ends at i1 = 10 - 1 
+    
+for i in range(stop):       --> Assumes start at i = 0, step = 1, loops until i = (stop - 1)
+    <Statement for True>
+
+If you have a string or a list
+for i1 in String1:
+    <Statement for True>     --> Looping through the string one character at a time.   
