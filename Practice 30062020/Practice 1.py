@@ -134,4 +134,9 @@ for i in range(stop):       --> Assumes start at i = 0, step = 1, loops until i 
 
 If you have a string or a list
 for i1 in String1:
-    <Statement for True>     --> Looping through the string one character at a time.   
+    <Statement for True>     --> Looping through the string one character at a time.
+
+for i1 in List1:
+    <Statement for True> 
+    
+    

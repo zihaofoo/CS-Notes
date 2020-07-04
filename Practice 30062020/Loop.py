@@ -16,7 +16,7 @@ for i2 in range (15):
 """
 string1 = "quek ying jie"
 num_search = 0
-var_search = "33"
+var_search = "j"
 for i3 in range(len(string1)):
     if string1[i3] == var_search:
         print("We found", var_search, "at", i3)
