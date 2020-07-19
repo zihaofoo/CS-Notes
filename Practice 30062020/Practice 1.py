@@ -125,7 +125,8 @@ for i in range(start, stop ,step):
     <Statement for True>
 E.g. 
     for i1 in range(1, 10, 1):
-        sum = sum + i1  
+        sum = sum + i1
+        
     Starts at i1 = 1, 
     Ends at i1 = 10 - 1 
     
